@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class HW2 {
+public class week3HW2 {
 
 	static float Max_Float=Float.MIN_VALUE, Max_Integer=Float.MIN_VALUE, Max_String = 0; //가장 높은 평균을 가진 최대 정수, 실수, 문자열 찾기
 	static int 	Max_I_cnt =0, Max_F_cnt=0, Max_S_cnt=0, //가장 높은 평균을 가진 정수, 실수, 문자열 개수 저장

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class HW1 {
+public class week4HW1 {
 
 	public static void main(String[] args) {
 		int count=0;

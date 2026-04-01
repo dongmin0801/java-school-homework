@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class HW3 {
+public class week2HW1 {
 
 	public static void main(String[] args) {
 		int a,b,c, max=Integer.MIN_VALUE, min=Integer.MAX_VALUE, mid = 0;

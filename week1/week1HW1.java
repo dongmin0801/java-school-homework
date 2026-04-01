@@ -1,7 +1,7 @@
 import java.util.Calendar;
 import java.util.Scanner;
 
-public class HW1 {
+public class week1HW1 {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);

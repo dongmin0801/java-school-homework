@@ -1,5 +1,5 @@
 
-public class HW5 {
+public class week3HW1 {
 	
 	public static void main(String[] args) {
 		

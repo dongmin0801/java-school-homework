@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class HW3 {
+public class week3HW3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
