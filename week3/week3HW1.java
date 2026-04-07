@@ -2,7 +2,6 @@
 public class week3HW1 {
 	
 	public static void main(String[] args) {
-		
 		int total,
 		won50000 =0, won10000 =0, won5000 =0, won1000 =0, won500 =0, won100 =0, won50 =0, won10 =0, won5 =0, won1 = 0;
 		
