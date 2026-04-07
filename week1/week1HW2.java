@@ -28,6 +28,8 @@ public class week1HW2 {
 		System.out.printf("총합 : %d, 평균 : %.3f\n",sum, avg);
 		System.out.printf("가장 큰 수 : %d \n",max);
 		System.out.printf("가장 작은 수 : %d",min);
+
+		in.close();
 	}
 
 }
