@@ -75,6 +75,6 @@ public class week2HW1 {
 		
 
 		
-		
+		in.close();
 	}
 }
