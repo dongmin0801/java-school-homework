@@ -2,8 +2,6 @@
 public class week2HW2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
 		int a,b;
 		char op;
 		
@@ -11,7 +9,7 @@ public class week2HW2 {
 			System.out.printf("%s = 수식 오류", args[0]);
 			System.exit(0);
 		}
-		 
+		
 		if(args.length==2) {
 			if ((48 <= (int)args[0].charAt(0) && (int)args[0].charAt(0) <= 57) && (48 <= (int)args[1].charAt(0) && (int)args[1].charAt(0) <= 57)) {
 				System.out.printf("%s %s = 연산자 없음", args[0], args[1]);
@@ -26,7 +24,7 @@ public class week2HW2 {
 				System.exit(0);
 			}
 		}
-		 
+		
 		a = Integer.parseInt(args[0]);
 		b = Integer.parseInt(args[2]);
 		op = args[1].charAt(0);
