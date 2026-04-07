@@ -61,7 +61,7 @@ public class week4HW1 {
 			System.out.printf("평균 : %.3f %s\n", sum/count, currencyType);	
 		}
 		
-		
+		in.close();
 	}
 	
 	public static double exchangeDollar(int total ,double dollarEx, double yenEx, double euroEx, String currency) { /*달러로 변환 total == 환전 할 돈 총액, currency == 환전 할 돈 종류
@@ -82,8 +82,7 @@ public class week4HW1 {
 		}
 	}
 
-	public static double exchangeWon(int total, double dollarEx, double yenEx, double euroEx,String currency) { /*달러로 변환 total == 환전 할 돈 총액, currency == 환전 할 돈 종류
-	 																							, dollarEx == 달러 환율 yenEx == 엔 환율, euroEx == 유로 환율*/
+	public static double exchangeWon(int total, double dollarEx, double yenEx, double euroEx,String currency) { /*달러로 변환 total == 환전 할 돈 총액, currency == 환전 할 돈 종류, dollarEx == 달러 환율 yenEx == 엔 환율, euroEx == 유로 환율*/
 
 		switch (currency) {
 		case "dollar":
@@ -100,8 +99,7 @@ public class week4HW1 {
 		}
 	}
 
-	public static double exchangeEuro(int total, double dollarEx, double yenEx, double euroEx,String currency) { /*달러로 변환 total == 환전 할 돈 총액, currency == 환전 할 돈 종류
-	 																							, dollarEx == 달러 환율 yenEx ==엔 환율, euroEx == 유로 환율*/
+	public static double exchangeEuro(int total, double dollarEx, double yenEx, double euroEx,String currency) { /*달러로 변환 total == 환전 할 돈 총액, currency == 환전 할 돈 종류, dollarEx == 달러 환율 yenEx ==엔 환율, euroEx == 유로 환율*/
 
 		switch (currency) {
 		case "dollar":
@@ -118,8 +116,7 @@ public class week4HW1 {
 		}
 	}
 
-	public static double exchangeYen(int total, double dollarEx, double yenEx, double euroEx,String currency) { /*달러로 변환 total == 환전 할 돈 총액, currency == 환전 할 돈 종류
-	 																					, dollarEx == 달러 환율 yenEx==엔 환율, euroEx == 유로 환율*/
+	public static double exchangeYen(int total, double dollarEx, double yenEx, double euroEx,String currency) { /*달러로 변환 total == 환전 할 돈 총액, currency == 환전 할 돈 종류, dollarEx == 달러 환율 yenEx==엔 환율, euroEx == 유로 환율*/
 
 		switch (currency) {
 		case "dollar":
