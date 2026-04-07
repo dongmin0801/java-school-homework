@@ -81,7 +81,6 @@ public class week4HW2 {
 			}
 		}
 		
-		
 	}
 	
 	static String getBinery(long n, int size) {
