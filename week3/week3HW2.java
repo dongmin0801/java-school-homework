@@ -43,7 +43,6 @@ public class week3HW2 {
 			}
 			
 			
-			
 			boolean exist = false;
 			System.out.printf("%d: ", c);
 			
