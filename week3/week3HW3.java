@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class week3HW3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String str1, str2;
 		long l1,l2;
 		double d1=0,d2=0;
