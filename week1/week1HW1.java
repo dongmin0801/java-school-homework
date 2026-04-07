@@ -24,7 +24,6 @@ public class week1HW1 {
 		System.out.println("학과:"); major = in.next();
 		System.out.println("입학년도 :"); enterenceYear = in.nextInt();
 		
-
 		if(month<birthMonth || (month==birthMonth && day<birthDay)) {
 			age = year-birthYear-1;
 		}
@@ -35,6 +34,8 @@ public class week1HW1 {
 		grade = year-enterenceYear+1;
 		
 		System.out.printf("%s(만,%d세) 학생은 %s %s에 %d학년으로 재학중이다. \"%s %s %s\"에 거주 중이다.",name, age, university, major, grade, si,gu,dong);
+
+		in.close();
 	}
 
 }
