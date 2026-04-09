@@ -41,7 +41,7 @@ public class week3HW2 {
 					Scnt++;
 				}
 			}
-			
+			line.close();
 			
 			boolean exist = false;
 			System.out.printf("%d: ", c);
@@ -92,6 +92,7 @@ public class week3HW2 {
 		if(Max_F_cnt>0) System.out.printf("실수 평균 최고 : %d번줄 %f (%d개)\n", Max_Fc, Max_Float, Max_F_cnt);
 		if(Max_S_cnt>0) System.out.printf("문자열 길이 평균 최고 : %d번줄 %f (%d개)\n", Max_Sc, Max_String, Max_S_cnt);
 
+		in.close();
 		
 	}
 	
@@ -119,7 +120,7 @@ public class week3HW2 {
 		boolean result = false;
 		Scanner in = new Scanner(text);
 		result = in.hasNext();
-		
+		in.close();
 		return result;
 	}
 
