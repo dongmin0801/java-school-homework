@@ -34,7 +34,7 @@ public class week5HW2 {
 		System.out.printf("\n\n");
 		System.out.printf("평균 : %.3f\n평균 이상 : %3d개\n평균 미만 : %3d개", avg, overAvg, underAvg);
 	}
-    public class Rand {
+    public static class Rand {
 	public static int r(int min, int max)  {
 		int range = (max - min) + 1;     
 		return (int)(Math.random() * range) + min;
